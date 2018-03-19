@@ -28,14 +28,15 @@ gulp.task('default', ['vendor']);
 // Configure the browserSync task
 gulp.task('browserSync', function() {
   browserSync.init({
-    server: {
-      baseDir: "./"
-    }
+    // server: {
+    //   baseDir: "./"
+    // }
+    proxy:"http://localhost/WitFlo/"
   });
 });
 
 // Dev task
 gulp.task('watch', ['browserSync'], function() {
   gulp.watch('./css/*.css', browserSync.reload);
-  gulp.watch('./*.html', browserSync.reload);
+  gulp.watch('./*.php', browserSync.reload);
 });
