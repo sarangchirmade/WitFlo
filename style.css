@@ -2,10 +2,6 @@ body{
 	background: #00AECC;
 }
 
-#body-main{
-	background: white;
-}
-
 /* enable absolute positioning */
 .inner-addon { 
     position: relative; 
@@ -134,15 +130,3 @@ body{
 .icons{
     color: #fff;
 }
-
-.card{
-	height: 96pX ;
-	/*width: 270px; */
-	/*margin-right: 2px;*/
-}
-
-/*.card:hover{
-
-	
-}
-*/
