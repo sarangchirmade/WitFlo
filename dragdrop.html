@@ -1,0 +1,103 @@
+
+<script>
+function inputtoaddlist(){
+
+}
+function addListcard(listcontainer_id){
+
+  var listCard="<li class='curriculum-topic col-3 '><div class='card mt-4'><div class='card-heading'><input class='ml-2' type='text' style='overflow: hidden; word-wrap:break-word; height: 30px; border:0;' placeholder='Doing' aria-label='ToDo' spellcheck='false' dir='auto' maxlength='512'><a class='btn btn-sm btn-light ml-5' href='#' role='button'><i class='fa fa-ellipsis-h' aria-hidden='true'></i></a></div><div class='card-body'><a data-toggle='collapse' href='#multiCollapseExample2' aria-expanded='false' aria-controls='multiCollapseExample2'></a><div class='row'><div class='col'><div class='collapse multi-collapse' id='multiCollapseExample2'><div class='card card-body'><textarea class='ml-2' style='overflow: hidden; word-wrap:break-word; resize: none; height: 54px;' dir='auto'></textarea></div></div></div></div></div></li>";
+   document.getElementById("sortable").innerHTML +=listCard;
+}
+</script>
+<link rel="stylesheet" href="assets/css/drag.css">
+<script  src="assets/js/drag.js"></script>
+
+
+
+<!--  <div class="container">
+  <button class="btn btn-primary btn-backbutton"><i class="fa fa-angle-left"></i> Back</button>
+</div>-->
+<div  id="987" class="container curriculum-container">
+  <ul id="sortable" class="curriculum-topics row">
+
+    <li class="curriculum-topic col-3">
+      <div class="card mt-4 ">
+        <div class="card-heading flex ">
+            <input class="ml-2 " type="text" style="overflow: hidden; word-wrap: break-word; height: 30px; border:0" placeholder="To Do" aria-label="ToDo" spellcheck="false" dir="auto" maxlength="512">
+            <a class="btn btn-sm btn-light ml-5 " href="#" role="button"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+        </div>
+        <div class="card-body">
+          <a class="" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Add a card...</a>
+
+
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+
+
+                  <textarea style="overflow: hidden; word-wrap: break-word; resize: none; height: 54px;" dir="auto" placeholder="">
+                  </textarea>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </li>
+    <li class="curriculum-topic col-3">
+      <div class="card mt-4">
+        <div class="card-heading">
+      <input class="ml-2" type="text" style="overflow: hidden; word-wrap: break-word; height: 30px; border:0;" placeholder="Doing" aria-label="ToDo" spellcheck="false" dir="auto" maxlength="512">
+          <a class="btn btn-sm btn-light ml-5" href="#" role="button"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+        </div>
+        <div class="card-body">
+          <a class="" data-toggle="collapse" href="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Add a card...
+          </a>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                  <textarea class="ml-2"style="overflow: hidden; word-wrap: break-word; resize: none; height: 54px;" dir="auto" placeholder="">
+                  </textarea>
+
+            </div>
+          </div>
+    </div>
+        </div>
+        </div>
+    </li>
+
+    <li class="curriculum-topic col-3">
+      <div class="card mt-4">
+        <div class="card-heading">
+        <input  class="ml-2" type="text" style="overflow: hidden; word-wrap: break-word; height: 30px; border:0" placeholder="Done" aria-label="ToDo" spellcheck="false" dir="auto" maxlength="512">
+        <a class="btn btn-sm btn-light ml-5" href="#" role="button"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+        </div>
+        <div class="card-body">
+          <a href="#">Add a card...</a></div>
+      </div>
+      <li class="curriculum-topic  col-3">
+        <!-- <div class="card ">
+          <div class="card-heading">
+           <input class="ml-2" type="text" style="overflow: hidden; word-wrap: break-word; height: 30px; border:0" placeholder="To Do" aria-label="ToDo" spellcheck="false" dir="auto" maxlength="512">
+                   <a href="#" ><i class="ml-5 glyphicon glyphicon-option-horizontal"></i>
+            </a>
+          </div> -->
+          <div id="AddListid" class="card-body">
+            <button class="btn btn-primary btn-block text-left" onclick="addListcard(this.id)">Add a list...</button>
+
+          </div>
+        </div>
+      </li>
+
+
+    </li>
+
+  </ul>
+
+
+
+
+</div>

@@ -14,6 +14,7 @@
   <script src="assets/js/main.js" ></script>
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="vendor/jquery/jquery.min.js"></script>
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> -->
 
   <!-- icon library -->
@@ -32,11 +33,11 @@
             <div class="col-md-5 col-md-offset-5 ">
                 <div class="login-panel panel panel-default">
                     <div class="panel-heading">
-                        <h2 class="panel-title font-robot mt-5"><b>Log in to WitFlo</b></h2>
-                        <h5 class="mb-4">or <a style="text-decoration:underline;color:#298fca"href="https://trello.com/signup">create an account</a></h5>
+                        <h2 class="panel-title font-robot mt-5"><b>Log in to WitFlo</b> </h2>
+                        <h5 class="mb-4">or <a style="text-decoration:underline;color:#298fca"href="signup.php">create an account</a></h5>
                     </div>
                     <div class="panel-body" id="abc">
-                        <form role="form m-3">
+                        <form role="form m-3" action="index.php">
                             <!-- <fieldset> -->
                                 <div class="form-group ">
                                    <label class="font-arial text-muted"> Email  <span style="color:#999">(or username)</span></label>
@@ -50,7 +51,7 @@
                                <div class="container">
                                </div>
                             <!-- </fieldset> -->
-                            <button type="button" class="btn-lg btn-success btn-block">Log In</button><br>
+                            <button type="button" class="btn-lg btn-success btn-block" onclick="location.href='changemain.php';">Log In</button><br>
                             <!-- <button type="button" class="btn-lg btn-light btn-block">Log in with Google</button><br> -->
                             <!-- <button type="btn" class="btn-lg  btn-block"><img src="assets/images/Artboard.svg"> Log in with Google</button> -->
                             <button class="btn mb-4" class="btn-lg btn-block" style="width:445; height:45;border:2px solid #cdd2d4;"><img src="assets/images/Artboard.svg"> Log in with Google</button>

@@ -1,0 +1,262 @@
+body{
+	background: #00AECC;
+}
+
+#body-main{
+	background: white;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .fa  { left:  0px;}
+.right-addon .fa { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+
+
+
+/*Circular Buttons*/
+.btn-circle {
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 20px;
+  background: #CDD2D4;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+/*Circular Buttons*/
+
+
+.bg-trello-nav-col{
+	background: #0094AE;
+}
+
+.bg-trello-nav2-col{
+	background: #00AECC;
+}
+
+.btn-trello-btn{
+	background: #66BFCE;
+}
+
+.navbar{
+	height: 40px !important;
+}
+
+#navbar2{
+	background: #00AECC !important;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.5);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+
+
+/*Row Seperator*/
+
+.vdivide [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+}
+
+
+/*Button*/
+.btn-change:hover{
+    /*-webkit-transform: scale(1.1);*/
+    background: #0099B3;
+}
+
+.btn-board{
+	padding-top:   0;
+	padding-bottom: 0;
+	/*//font-size: 18px;*/
+}
+
+.btn-menu{
+	text-decoration: underline;
+}
+
+.btn-change-menu:hover{
+    /*-webkit-transform: scale(1.1);*/
+    background: #0099B3;
+}
+
+
+.icons{
+    color: #fff;
+}
+
+.card{
+	height: 96pX ;
+	/*width: 270px; */
+	/*margin-right: 2px;*/
+}
+
+/*.card:hover{
+
+
+}
+*/
+@media screen and (max-width:748px) {
+#dropdownMenuButton {
+display: none;
+}
+#searchid {
+width:33.5px;
+
+}
+#board{
+   display: none;
+}
+#boardbtn{
+   width: 35px;
+}
+}
+
+#recipient-name{
+	opacity: 0.3;
+}
+#recipient-name:hover{
+	opacity: 0.9;
+}
+#Mycreatecard{
+opacity: 0.5;
+}
+#newboardcardwindow{
+
+opacity: 1;
+}
+#newboardcardcontainer{
+width:400px;
+
+}
+.modal-content{
+background: transparent;
+border: none;
+}
+#mySelect{
+ background: transparent;
+}
+#Modalcontentid{
+width:400px;
+background: transparent;
+border: none;
+}
+
+#recipient-name{
+	opacity: 0.3;
+}
+#recipient-name:hover{
+	opacity: 0.9;
+}
+#Mycreatecard{
+opacity: 0.5;
+}
+#newboardcardwindow{
+
+opacity: 1;
+}
+#newboardcardcontainer{
+
+width:400px;
+
+}
+#Modalcontentid{
+width:400px;
+color: transparent;
+opacity: 1;
+}
+/*
+*/
+/*.btn-sidebar-color{
+background: #F8F9FA;
+}
+
+.btn-sidebar-color:hover{
+background: #d6dadc;
+}*/
+/* .sidebar{
+top:76px;
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+right: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.2s;
+padding-top: 100px;
+}  */
+
+#sidebar {
+  /* max-width: 250px; */
+  min-height: 100%;
+  right: 0;
+  /* top:76px; */
+   /* height: 100%; */
+   width:350px;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  background-color: #EDEFF0;
+  /* padding: 0; */
+  /* overflow-x: hidden; */
+  transition: all 0.3s;
+  /* padding-top: 100px; */
+}
+
+
+
+.collapse.show{
+ width: 350px;
+
+}

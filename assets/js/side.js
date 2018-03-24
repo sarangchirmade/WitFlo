@@ -11,10 +11,10 @@ jQuery(function() {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
-    $(document).ready(function() {
-     $('.chaffle').chaffle({
-      speed: 20,
-      time: 140
-    });
-   });
+   //  $(document).ready(function() {
+   //   $('.chaffle').chaffle({
+   //    speed: 20,
+   //    time: 140
+   //  });
+   // });
 });

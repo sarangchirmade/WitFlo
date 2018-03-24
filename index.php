@@ -14,7 +14,7 @@
 
      <script src="assets/js/main.js" ></script>
      <link rel="stylesheet" href="assets/css/style.css">
-
+ <link rel="stylesheet" href="assets/css/side.css">
 
 
   </head>
@@ -42,14 +42,18 @@
     </form>
 
   <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
-    <img class="ml-auto" src="assets/images/witflo.png" alt="Smiley face" height="35" width="150">
+    <img class="ml-auto" src="assets/images/witflo.png" alt="Smiley face" height="33" width="150">
 
     <form class="form-inline ml-auto">
       <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
       <button class="btn btn-sm btn-trello-btn mx-1 " type="submit"><i class="fa fa-plus icons"></i></button>
       <button class="btn btn-sm btn-trello-btn mx-1 " type="submit"><i class="fa fa-info-circle icons"></i></button>
       <button class="btn btn-sm btn-trello-btn mx-1 " type="submit"><i class="fa fa-bell icons"></i></button>
-      <button class="btn btn-light btn-circle mx-1 " type="submit"><strong>SK</strong></button>
+      <button class="btn btn-light btn-circle mx-1" type="submit"><strong>SK</strong></button>
+
+
+
+
     </form>
   <!-- </div> -->
   </nav>
@@ -107,8 +111,9 @@
         <div class="col-sm-1"  style="background-color:white;height: 80px;"></div>
         <div class="col-sm-10">
 
-        <class="card" style="width: 18rem;" class="bg-primary">
-        <div><h7>Untitle Board</h7>
+
+        <class="card" style="width: 18rem;" class="bg-primary"></a>
+        <div><h7><a href="board.php" class="text-dark">Untitle Board</a></h7>
 
         <label id="bookmarkstar" onclick="mybookmark(this.id)"><img src="assets/images/white_star.svg" width="20" height="20"/>
         </div>
