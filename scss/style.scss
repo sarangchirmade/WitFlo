@@ -1,0 +1,90 @@
+body {
+  background-image: url('http://placekitten.com/g/1200/800');
+  background-size: cover;
+  background-position: center center;
+  color: #282461;
+}
+
+@media (min-width: 1200px) {
+  .curriculum-template .container {
+    min-width: 1200px;
+  }
+}
+@media (min-width: 1400px) {
+  .curriculum-template .container {
+    min-width: 1400px;
+  }
+}
+@media (min-width: 1600px) {
+  .curriculum-template .container {
+    min-width: 1600px;
+  }
+}
+
+.btn-backbutton {
+  margin-bottom: 2rem;
+}
+
+.curriculum-template {
+  padding-top: 2rem;
+}
+
+.curriculum-topics {
+  list-style-type: none;
+  margin: 0; padding: 0;
+}
+
+// .curriculum-topic {
+//   display: inline-block;
+//   float: left;
+//   width: 100%;
+//   @media (min-width: 992px) {
+//     width: 33%;
+//     box-sizing: border-box;
+//     padding: 10px;
+//   }
+// }
+//
+// .curriculum-topics {
+//   display: flex;
+//   flex-wrap: wrap;
+//   .curriculum-topic {
+//     flex: 0 0 33%;
+//   }
+// }
+
+
+/* Masonry bricks or child elements */
+.curriculum-topic {
+    display: inline-block;
+}
+
+
+.curriculum-topic.title,
+.curriculum-topic.topic {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 4;
+}
+
+
+
+
+// Set columns with column-count
+// Doesn't play so nicely with drag-and-drop
+// @media (min-width: 992px) {
+//   .curriculum-topics {
+//     column-count: 3;
+//     -webkit-perspective: 1;
+//   }
+// }
+
+
+.curriculum-template {
+  .panel-default .panel-heading {
+    background-color: #DDDDDD;
+    font-size: 1.4em;
+
+
+  }
+}
