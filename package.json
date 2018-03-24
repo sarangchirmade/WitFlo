@@ -1,0 +1,27 @@
+{
+  "name": "witflo",
+  "version": "1.0.0",
+  "description": "Project Task Management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarangchirmade/WitFlo.git"
+  },
+  "author": "Sarang Chirmade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarangchirmade/WitFlo/issues"
+  },
+  "homepage": "https://github.com/sarangchirmade/WitFlo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-atom": "^0.1.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "popper.js": "^1.14.1"
+  }
+}

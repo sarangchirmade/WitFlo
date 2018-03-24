@@ -1,0 +1,144 @@
+<html lang="en"><head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Log in to Trello</title>
+    <meta name="description" content="Log in to Trello."></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="">
+
+    <title>Log in to Trello</title>
+
+
+  <script src="assets/js/main.js" ></script>
+  <!-- <link rel="stylesheet" href="css/Style.css"> -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/popper/popper.min.js"></script>
+   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+  <!-- icon library -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+
+ <style>
+ #a101{
+   align-items: center;
+   display: flex;
+   justify-content: center;
+
+ }
+ /*.mb-4{
+   font-size: 15px;
+ }*/
+
+ /* .button{
+   background: #e2e4e6;
+ } */
+ </style>
+
+</head>
+<!-- <script>
+$(document).ready(function() {
+    $('#taskForm')
+        .formValidation({
+            framework: 'bootstrap',
+            icon: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                name: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The task is required'
+                        }
+                    }
+                },
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The description is required'
+                        }
+                    }
+                },
+                password: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The task is required'
+                        }
+                    }
+                }
+            }
+        })
+        .on('success.field.fv', function(e, data) {
+            if (data.fv.getInvalidFields().length > 0) {    // There is invalid field
+                data.fv.disableSubmitButtons(true);
+            }
+        });
+});
+</script> -->
+<body>
+
+    <div class="container mt-5">
+        <div class="row " id="a101">
+            <!-- <div class="col-md-4 col-md-offset-4"></div> -->
+            <div class="col-md-5 col-md-offset-5 ">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title font-robot mt-5"><strong>Create a WitFlo Account</strong></h2>
+                        <h5 class="mb-5">or <a style="text-decoration:underline;color:#298fca"href="index.html">sign in to your account</a></h5>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form m-3" action="index.php">
+                        <!-- <form id="taskForm" method="post" class="form-horizontal"> -->
+                            <!-- <fieldset> -->
+                            <div class="form-group ">
+                               <label class="font-arial text-muted"> Name  <span style="color:#999"></span></label>
+                                <input class="form-control textarea-bg "  placeholder="e.g., Hermione Granger" name="name" autofocus="" type="name">
+                            </div>
+                                <div class="form-group ">
+                                   <label class="font-arial text-muted"> Email  <span style="color:#999">(or username)</span></label>
+                                    <input class="form-control textarea-bg"  placeholder="e.g., e.hughes@downtown.org.uk" name="email" autofocus="" type="email">
+                                </div>
+                                <div class="form-group">
+                                   <label class="font-arial text-muted">Password </label>
+                                    <input class="form-control textarea-bg" placeholder="e.g., *********" name="password" value="" type="password">
+                                </div>
+
+                               <div class="container">
+                               </div>
+                          <!-- <div class="form-group">
+                            <button type="submit" class="btn btn-default" disabled="disabled">Create New Account</button>
+                            </div> -->
+                            <button type="button" class="btn-lg btn btn-block"  disabled="" onclick="location.href='index.html';">Create New Account</button><br>
+
+                    <button  class="btn-lg btn-block mb-4" style="width:445; height:45;border:2px solid #cdd2d4;"><img class="mr-4" src="assets/images/Artboard.svg"> Log in with Google</button>
+
+                            <h6 class="mt-4">By creating an account, you agree to our<a style="text-decoration:underline;color:#298fca"href=""> Terms of Service </a>and<a style="text-decoration:underline;color:#298fca"href=""> Privacy Policy</a></h6>
+                        </form>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="text-muted ">  <footer class="quiet" data-tract-group="Footer" style="text-align: center;">
+    <ul >
+      <a  href="/tour" class="mr-2 text-muted">Tour</a>
+        <a href="/Pricing" class="mr-2 text-muted">Pricing</a>
+          <a href="/Apps" class="mr-2 text-muted">Apps</a>
+            <a href="/Jobs"class="mr-2 text-muted">Jobs</a>
+              <a href="/Blog"class="mr-2 text-muted">Blog</a>
+                <a href="/Developers"class="mr-2 text-muted">Developers</a>
+                  <a href="/About"class="mr-2 text-muted">About</a>
+                    <a href="/Help"class="mr-2 text-muted">Help</a>
+                      <a href="/Legal"class="mr-2 text-muted">Legal</a>
+                    </ul></p>
+
+    <br>
+    <p class="text-muted"><img src="Images/A.svg" width="150"></a> © Copyright 2018. All rights reserved</p>
+  </footer>
+
+
+</body></html>
