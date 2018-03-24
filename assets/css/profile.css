@@ -1,0 +1,232 @@
+.tabbed-pane-header {
+    background-color: #edeff0;
+}
+div::-moz-selection {
+    background: transparent none repeat scroll 0 0;
+}
+.u-clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.tabbed-pane-header-wrapper {
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 0px;
+    position: relative;
+}
+.profile-image.is-editable {
+    cursor: pointer;
+}
+#ab2 {
+    -moz-user-select: none;
+    background-color: #d6dadc;
+    border-radius: 25em;
+    cursor: default;
+    display: block;
+    height: 85px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    width: 85px;
+    z-index: 0;
+}
+.tabbed-pane-header-image {
+    float: left;
+}
+a {
+    color: #444;
+}
+a {
+    background-color: transparent;
+}
+.profile-image-change-text, .profile-image-initials {
+    font-weight: 700;
+    left: 0;
+    position: absolute;
+    text-align: center;
+}
+
+/* #ab2{
+    font-weight: 700;
+    left: 0;
+    position: absolute;
+    text-align: center;
+} */
+#ab {
+
+    display: block;
+    font-size: 34px;
+    height: 100px;
+    line-height: 100px;
+    overflow: hidden;
+    top: 0;
+    width: 85px;
+    z-index: 1;
+}
+.tabbed-pane-header-details-name {
+    margin-bottom: 8px;
+
+}
+div::-moz-selection {
+    background: transparent none repeat scroll 0 0;
+}
+.tabbed-pane-header-details {
+    margin: 0 0 0 100px;
+}
+div::-moz-selection {
+    background: transparent none repeat scroll 0 0;
+}
+.u-inline {
+    display: inline;
+}
+h1, h2 {
+    line-height: 1.2em;
+}
+h1 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+.u-clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.tabbed-pane-nav {
+    background-color: #edeff0;
+    border-bottom: 1px solid #d6dadc;
+    position: relative;
+    text-align: center;
+}
+div::-moz-selection {
+    background: transparent none repeat scroll 0 0;
+}
+.tabbed-pane-nav {
+    text-align: center;
+}
+
+.tabbed-pane-nav-item-button {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #d6dadc;
+    border-color: #d6dadc #d6dadc -moz-use-text-color;
+    border-image: none;
+    border-radius: 3px 3px 0 0;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    display: inline-block;
+    font-weight: 700;
+    margin: 2px 2px 0;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+a {
+    color: #444;
+}
+a {
+    background-color: transparent;
+}
+.icon-edit::before {
+    content: "";
+}
+.icon-lg, .icon-sm {
+    color: #999;
+}
+.icon-sm {
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    width: 19px;
+}
+.icon-lg, .icon-sm {
+    display: inline-block;
+    font-family: trellicons;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+}
+.button-link, .button-link .on {
+    border-radius: 3px;
+    font-weight: 700;
+}
+.button-link {
+    -moz-user-select: none;
+    background: #e2e4e6 none repeat scroll 0 0;
+    box-shadow: 0 1px 0 0 #c4c9cc;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 32px;
+    margin-top: 8px;
+    max-width: 120px;
+    overflow: hidden;
+    /* padding: 7px 7px 7px 11px; */
+    position: relative;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+a {
+    color: #444;
+}
+a {
+    background-color: transparent;
+}
+
+.window-title-extra {
+    color: #838c91;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 2px;
+    padding: 0 6px 0 2px;
+    position: relative;
+}
+.quiet, .quiet a {
+    color: #838c91;
+}
+p {
+    margin: 0 0 8px;
+}
+.u-clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.tabbed-pane-main-col {
+    background: #fff none repeat scroll 0 0;
+}
+div::-moz-selection {
+    background: transparent none repeat scroll 0 0;
+}
+
+.tabbed-pane-main-col.mod-wider .tabbed-pane-main-col-wrapper {
+    max-width: 900px;
+}
+.tab-pane{
+  font-size: 15px;
+}
+.tabbed-pane-main-col-wrapper {
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 32px;
+    position: relative;
+}
+div::-moz-selection {
+    background: transparent none repeat scroll 0 0;
+}
+.window-module {
+    clear: both;
+    margin-bottom: 16px;
+    position: relative;
+}
+div::-moz-selection {
+    background: transparent none repeat scroll 0 0;
+}
