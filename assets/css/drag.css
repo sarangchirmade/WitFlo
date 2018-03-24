@@ -1,0 +1,56 @@
+
+
+textarea {
+  /*background: url(images/benice.png) center center no-repeat; /* This ruins default border */*/
+  border: 1px solid #888;
+}
+
+@media (min-width: 1200px) {
+  .curriculum-template .container {
+    min-width: 1200px;
+  }
+}
+@media (min-width: 1400px) {
+  .curriculum-template .container {
+    min-width: 1400px;
+  }
+}
+@media (min-width: 1600px) {
+  .curriculum-template .container {
+    min-width: 1600px;
+  }
+}
+.btn-backbutton {
+  margin-bottom: 2rem;
+}
+
+.curriculum-template {
+  padding-top: 2rem;
+}
+
+.curriculum-topics {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.close_12121{
+  font-size:50px;
+
+}
+
+/* Masonry bricks or child elements */
+.curriculum-topic {
+  display: inline-block;
+}
+
+.curriculum-topic.title,
+.curriculum-topic.topic {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 4;
+}
+
+.curriculum-template .panel-default .panel-heading {
+  background-color: #DDDDDD;
+  font-size: 1.4em;
+}
